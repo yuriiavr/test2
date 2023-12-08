@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.min.css">
+</head>
+<body>
+    <main class="main">
+        <button type="button" class="main__menu-button" data-burger-btn>
+            <svg width="24" height="24" aria-label="menu shifter">
+                <use class="icon-close-menu" href="/images/sprite.svg#icon-close-menu"></use>
+                <use class="icon-menu" href="/images/sprite.svg#icon-menu"></use>
+            </svg>
+        </button>
+        <section class="sidebar" data-menu-container>
+            <div class="sidebar__back">
+                <div class="sidebar__logo-cont"><img class="sidebar__logo" src="images/logo.png" alt="top logo"> <span>v.01</span></div>
+                <ul class="sidebar__list">
+                    <li><button>
+                            <span>
+                                <svg class="sidebar__icon"><use href="/images/sprite.svg#icon-key"></use></svg>Dashboard
+                            </span>
+                            <svg class="sidebar__icon-arrow">
+                                <use href="/images/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><button>
+                            <span>
+                                <svg class="sidebar__icon-fill">
+                                    <use href="/images/sprite.svg#icon-3d-square"></use>
+                                </svg>Product
+                            </span>
+                            <svg class="sidebar__icon-arrow">
+                                <use href="/images/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><button>
+                            <span>
+                                <svg class="sidebar__icon">
+                                    <use href="/images/sprite.svg#icon-user"></use>
+                                </svg>Customers
+                            </span>
+                            <svg class="sidebar__icon-arrow">
+                                <use href="/images/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><button>
+                            <span>
+                                <svg class="sidebar__icon">
+                                    <use href="/images/sprite.svg#icon-wallet"></use>
+                                </svg>Income
+                            </span>
+                            <svg class="sidebar__icon-arrow">
+                                <use href="/images/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><button>
+                            <span>
+                                <svg class="sidebar__icon-fill">
+                                    <use href="/images/sprite.svg#icon-discount"></use>
+                                </svg>Promote
+                            </span>
+                            <svg class="sidebar__icon-arrow">
+                                <use href="/images/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><button>
+                            <span>
+                                <svg class="sidebar__icon-fill">
+                                    <use href="/images/sprite.svg#icon-question-message"></use>
+                                </svg>Help
+                            </span>
+                            <svg class="sidebar__icon-arrow">
+                                <use href="/images/sprite.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+                <div class="sidebar__account-cont">
+                    <img src="/images/face.png" alt="account avatar">
+                    <div>
+                        <h3>Evano</h3>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="customers">
+            <h1>Hello Evano 👋🏼,</h1>
+            <div class="customers__cont">
+                <div class="customers__header">
+                    <div>
+                        <h2>All Customers</h2>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="customers__search-cont">
+                        <svg class="customers__search-icon"><use href="/images/sprite.svg#icon-search"></use></svg>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div>
+                    <div class="table_component" role="region" tabindex="0">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Customer Name</th>
+                                    <th>Company</th>
+                                    <th>Phone Number</th>
+                                    <th>Email</th>
+                                    <th>Country</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jane Cooper</td>
+                                    <td>Microsoft</td>
+                                    <td>(225) 555-0118</td>
+                                    <td>jane@microsoft.com</td>
+                                    <td>United States</td>
+                                    <td><div class="customers__status-active">Active</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Floyd Miles</td>
+                                    <td>Yahoo</td>
+                                    <td>(205) 555-0100</td>
+                                    <td>floyd@yahoo.com</td>
+                                    <td>Kiribati</td>
+                                    <td><div class="customers__status-inactive">Inactive</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Ronald Richards</td>
+                                    <td>Adobe</td>
+                                    <td>(302) 555-0107</td>
+                                    <td>ronald@adobe.com</td>
+                                    <td>Israel</td>
+                                    <td><div class="customers__status-inactive">Inactive</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Marvin McKinney</td>
+                                    <td>Tesla</td>
+                                    <td>(252) 555-0126</td>
+                                    <td>marvin@tesla.com</td>
+                                    <td>Iran</td>
+                                    <td><div class="customers__status-active">Active</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Jerome Bell</td>
+                                    <td>Google</td>
+                                    <td>(629) 555-0129</td>
+                                    <td>jerome@google.com</td>
+                                    <td>Réunion</td>
+                                    <td><div class="customers__status-active">Active</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Kathryn Murphy</td>
+                                    <td>Microsoft</td>
+                                    <td>(406) 555-0120</td>
+                                    <td>kathryn@microsoft.com</td>
+                                    <td>Curaçao</td>
+                                    <td><div class="customers__status-active">Active</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Jacob Jones</td>
+                                    <td>Yahoo</td>
+                                    <td>(208) 555-0112</td>
+                                    <td>jacob@yahoo.com</td>
+                                    <td>Brazil</td>
+                                    <td><div class="customers__status-active">Active</div></td>
+                                </tr>
+                                <tr>
+                                    <td>Kristin Watson</td>
+                                    <td>Facebook</td>
+                                    <td>(704) 555-0127</td>
+                                    <td>kristin@facebook.com</td>
+                                    <td>Åland Islands</td>
+                                    <td><div class="customers__status-inactive">Inactive</div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="customers__pagination">
+                    <p>Showing data 1 to 8 of 256K entries</p>
+                    <div class="customers__pagination-numbers">
+                        <a href="#"><svg class="customers__pagination-prew"><use href="/images/sprite.svg#icon-arrow-right"></use></svg></a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <span>...</span>
+                        <a href="#">40</a>
+                        <a href="#"><svg class="customers__pagination-next"><use href="/images/sprite.svg#icon-arrow-right"></use></svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/js/mobile-menu.js"></script>
+</body>
+</html>
